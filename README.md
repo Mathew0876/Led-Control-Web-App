@@ -1,7 +1,7 @@
 # Led-Control-Web-App
 Web application created using the Django web framework to control an LED light strip
 
-Uses LIRC irrecord and an ir reciever to record the ir signals from the led remote and create the remote config file. Then uses LIRC irsend and an ir led to adjust the lights. Commands are sent using a subprocess call.
+Uses LIRC irrecord command and an ir reciever to record the ir signals from the led remote and create a remote config file. Then uses LIRC irsend command and an ir led to adjust the lights. Commands are sent using a python subprocess call.
 
 ![alt text](Wiring.jpg "IR Reciever and IR LED") 
 
